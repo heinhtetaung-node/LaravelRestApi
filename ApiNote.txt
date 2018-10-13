@@ -1,0 +1,16 @@
+- composer install
+
+Api for transition save
+http://127.0.0.1:8000/api/transitions   -- POST
+{
+	"transition_name" : "ATM Lagos", 
+	"transition_type" : "Bank Withdraw", 
+	"transition_amt" : 450, 
+	"plus_or_minus" : "-"	
+}
+
+
+Api for transition get all
+http://127.0.0.1:8000/api/transitions
+
+
