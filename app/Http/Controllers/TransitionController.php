@@ -40,6 +40,6 @@ class TransitionController extends Controller
     {
         Transition::destroy($id);
 
-        return response()->json(null, 204);
+        return response()->json(['result'=>true, 'message'=>'deleted'], 200);
     }
 }
