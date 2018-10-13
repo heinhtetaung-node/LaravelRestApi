@@ -1,11 +1,11 @@
 - composer install
 
 Api for transition get all
-http://127.0.0.1:8000/api/transitions
+https://seedstartest.herokuapp.com/api/transitions
 
 
 Api for transition save
-http://127.0.0.1:8000/api/transitions   -- POST
+https://seedstartest.herokuapp.com/api/transitions   -- POST
 {
 	"transition_name" : "ATM Lagos", 
 	"transition_type" : "Bank Withdraw", 
@@ -15,7 +15,7 @@ http://127.0.0.1:8000/api/transitions   -- POST
 
 
 Api for transition edit
-http://127.0.0.1:8000/api/transitions/{id}   -- PUT
+https://seedstartest.herokuapp.com/api/transitions/{id}   -- PUT
 {	
 	"transition_name" : "ATM Lagos", 
 	"transition_type" : "Bank Withdraw", 
@@ -25,4 +25,4 @@ http://127.0.0.1:8000/api/transitions/{id}   -- PUT
 
 
 Api for transition delete
-http://127.0.0.1:8000/api/transitions/{id}  -- Delete
+https://seedstartest.herokuapp.com/api/transitions/{id}  -- Delete
