@@ -19,6 +19,7 @@ class CreateTransitionTable extends Migration
             $table->string('transition_type');
             $table->string('transition_amt');
             $table->string('plus_or_minus');
+            $table->string('n_or_sp');
             $table->timestamps();
 
         });
